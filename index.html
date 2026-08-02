@@ -10,7 +10,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon-180.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Amiri:ital,wght@0,700;1,700&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <script>
     (function () {
@@ -35,7 +35,6 @@
         <!-- <a href="#work" data-ar="أعمالنا" data-en="Work">أعمالنا</a> -->
         <a href="#process" data-ar="طريقة العمل" data-en="Process">طريقة العمل</a>
         <a href="#pricing" data-ar="الأسعار" data-en="Pricing">الأسعار</a>
-        <a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a>
       </nav>
       <div class="header-actions">
         <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
@@ -57,7 +56,6 @@
           </svg>
         </button>
         <button id="lang-toggle" class="lang-toggle" aria-label="Switch language">EN</button>
-        <a href="#contact" class="btn btn-primary" data-ar="ابدأ" data-en="Start">ابدأ</a>
       </div>
     </div>
   </header>
@@ -67,14 +65,13 @@
     <!-- Hero -->
     <section class="hero">
       <div class="container hero-inner">
-        <h1 data-ar="نسد الفجوة بين الشركات والعملاء" data-en="Bridging the gap between businesses and customers">
-          نسد الفجوة بين الشركات والعملاء
-        </h1>
+        <h1><span data-ar="احنا بنبني " data-en="We build the ">احنا بنبني </span><span class="brand-word" data-ar="الجسر" data-en="bridge">الجسر</span><span data-ar=" اللي بيوصل الشركات بعملائها" data-en=" that connects businesses to customers"> اللي بيوصل الشركات بعملائها</span></h1>
         <p class="hero-sub" data-ar="اصنع موقعًا إلكترونيًا فريدًا من نوعه لشركتك" data-en="Create a one of a kind website for your company">
           اصنع موقعًا إلكترونيًا فريدًا من نوعه لشركتك
         </p>
         <div class="hero-cta">
-          <a href="#contact" class="btn btn-primary" data-ar="تواصل معنا" data-en="Contact Us">احجز استشارة مجانية</a>
+          <a href="https://wa.me/201028711550" class="btn btn-whatsapp" target="_blank" rel="noopener" data-ar="واتساب" data-en="WhatsApp">واتساب</a>
+          <a href="tel:+201028711550" class="btn btn-secondary" data-ar="اتصل بنا" data-en="Call Us">اتصل بنا</a>
           <!-- <a href="#work" class="btn btn-secondary" data-ar="شاهد أعمالنا" data-en="See Our Work">شاهد أعمالنا</a> -->
         </div>
       </div>
@@ -84,6 +81,7 @@
     <section id="about" class="section">
       <div class="container">
         <h2 class="reveal" data-ar="من نحن" data-en="About Us">من نحن</h2>
+        <p class="section-subtitle reveal" data-ar="شريكتان بنساعد الشركات الصغيرة والمتوسطة في مصر تبني مواقع إلكترونية بسيطة وعالية التأثير تربطهم بعملائهم." data-en="Two co-founders helping small and medium businesses in Egypt build simple, high-impact websites that connect them with their customers.">شريكتان بنساعد الشركات الصغيرة والمتوسطة في مصر تبني مواقع إلكترونية بسيطة وعالية التأثير تربطهم بعملائهم.</p>
         <div class="grid grid-2 about-grid">
           <div class="card about-card reveal">
             <div class="about-avatar">
@@ -92,20 +90,15 @@
                 <path d="M4 20c0-4.418 3.582-8 8-8s8 3.582 8 8" fill="currentColor"/>
               </svg>
             </div>
-            <h3 data-ar="ملك" data-en="Malak">ملك</h3>
+            <h3 data-ar="جنى" data-en="Jana">جنى</h3>
             <p class="about-role" data-ar="شريكة مؤسسة" data-en="Co-Founder">شريكة مؤسسة</p>
-            <p data-ar="بالتعاون مع شريكي، أساعد الشركات الصغيرة والمتوسطة في مصر على بناء مواقع إلكترونية بسيطة وعالية التأثير تربطهم بعملائهم." data-en="Together with my partner, I help small and medium businesses in Egypt build simple, high-impact websites that connect them with customers.">بالتعاون مع شريكي، أساعد الشركات الصغيرة والمتوسطة في مصر على بناء مواقع إلكترونية بسيطة وعالية التأثير تربطهم بعملائهم.</p>
           </div>
           <div class="card about-card reveal">
             <div class="about-avatar">
-              <svg viewBox="0 0 24 24" class="avatar-icon" aria-hidden="true">
-                <circle cx="12" cy="8" r="4" fill="currentColor"/>
-                <path d="M4 20c0-4.418 3.582-8 8-8s8 3.582 8 8" fill="currentColor"/>
-              </svg>
+              <img src="assets/img/Malak.png" alt="Malak" class="avatar-photo">
             </div>
-            <h3 data-ar="[الاسم]" data-en="[Name]">[الاسم]</h3>
-            <p class="about-role" data-ar="[المسمى الوظيفي]" data-en="[Role]">[المسمى الوظيفي]</p>
-            <p data-ar="[نبذة قصيرة]" data-en="[Short bio]">[نبذة قصيرة]</p>
+            <h3 data-ar="ملك" data-en="Malak">ملك</h3>
+            <p class="about-role" data-ar="شريكة مؤسسة" data-en="Co-Founder">شريكة مؤسسة</p>
           </div>
         </div>
       </div>
@@ -158,16 +151,16 @@
         <h2 class="reveal" data-ar="ليه Jisr ؟ " data-en="Why Jisr?">ليه جسر؟</h2>
         <div class="grid grid-3">
           <div class="card reveal">
-            <h3 data-ar="[سبب 1]" data-en="[Reason 1]">[سبب 1]</h3>
-            <p data-ar="[شرح مختصر]" data-en="[Short explanation]">[شرح مختصر]</p>
+            <h3 data-ar="سريع وسهل" data-en="Fast & Simple">سريع وسهل</h3>
+            <p data-ar="نصمم لك موقعًا احترافيًا خلال أيام، من أول مكالمة لحد الإطلاق، من غير تعقيد." data-en="We build your professional website in days — from the first call to launch, without the hassle.">نصمم لك موقعًا احترافيًا خلال أيام، من أول مكالمة لحد الإطلاق، من غير تعقيد.</p>
           </div>
           <div class="card reveal">
-            <h3 data-ar="[سبب 2]" data-en="[Reason 2]">[سبب 2]</h3>
-            <p data-ar="[شرح مختصر]" data-en="[Short explanation]">[شرح مختصر]</p>
+            <h3 data-ar="مصمم خصيصًا لشركتك" data-en="Tailored to Your Business">مصمم خصيصًا لشركتك</h3>
+            <p data-ar="كل موقع بنبنيه ونخصصه بالكامل حسب هوية شركتك واحتياجاتك، مش قالب جاهز." data-en="Every website is fully customized around your brand and needs — not a generic template.">كل موقع بنبنيه ونخصصه بالكامل حسب هوية شركتك واحتياجاتك، مش قالب جاهز.</p>
           </div>
           <div class="card reveal">
-            <h3 data-ar="[سبب 3]" data-en="[Reason 3]">[سبب 3]</h3>
-            <p data-ar="[شرح مختصر]" data-en="[Short explanation]">[شرح مختصر]</p>
+            <h3 data-ar="دعم مستمر بعد الإطلاق" data-en="Ongoing Support After Launch">دعم مستمر بعد الإطلاق</h3>
+            <p data-ar="نفضل معاك بعد التسليم: تعديلات، ومساعدة في إعداد الاستضافة والدومين." data-en="We stay with you after delivery: revisions, plus help setting up hosting and your domain.">نفضل معاك بعد التسليم: تعديلات، ومساعدة في إعداد الاستضافة والدومين.</p>
           </div>
         </div>
       </div>
@@ -181,22 +174,22 @@
           <div class="step reveal">
             <span class="step-num">1</span>
             <h3 data-ar="التواصل" data-en="Chat">التواصل</h3>
-            <p data-ar="[وصف قصير]" data-en="[Short description]">[وصف قصير]</p>
+            <p data-ar="دردشة قصيرة نتعرف فيها على اللي محتاجه، المشكلة اللي عايز تحلها، الجدول الزمني المتوقع، وأي مميزات أو تفضيلات في الشكل." data-en="A quick chat to understand what you want, the problem you're solving, your rough timeline, and any must-have features or style preferences.">دردشة قصيرة نتعرف فيها على اللي محتاجه، المشكلة اللي عايز تحلها، الجدول الزمني المتوقع، وأي مميزات أو تفضيلات في الشكل.</p>
           </div>
           <div class="step reveal">
             <span class="step-num">2</span>
             <h3 data-ar="التصميم" data-en="Design">التصميم</h3>
-            <p data-ar="[وصف قصير]" data-en="[Short description]">[وصف قصير]</p>
+            <p data-ar="بتملى نموذج تخصيص بسيط، وبنصمم الموقع بالكامل بمعلومات وهوية شركتك." data-en="You fill out a simple customization form, and we design the site fully around your business details and branding.">بتملى نموذج تخصيص بسيط، وبنصمم الموقع بالكامل بمعلومات وهوية شركتك.</p>
           </div>
           <div class="step reveal">
             <span class="step-num">3</span>
-            <h3 data-ar="البناء" data-en="Build">البناء</h3>
-            <p data-ar="[وصف قصير]" data-en="[Short description]">[وصف قصير]</p>
+            <h3 data-ar="المراجعة" data-en="Review">المراجعة</h3>
+            <p data-ar="بنبعتلك رابط الموقع، ونعمل أي تعديلات مطلوبة معاك عبر واتساب أو مكالمة." data-en="We send you the live link and make any revisions you need over WhatsApp or a call.">بنبعتلك رابط الموقع، ونعمل أي تعديلات مطلوبة معاك عبر واتساب أو مكالمة.</p>
           </div>
           <div class="step reveal">
             <span class="step-num">4</span>
             <h3 data-ar="الإطلاق" data-en="Launch">الإطلاق</h3>
-            <p data-ar="[وصف قصير]" data-en="[Short description]">[وصف قصير]</p>
+            <p data-ar="مكالمة تسليم نساعدك فيها بإنشاء حساب GitHub، وشراء الاستضافة والدومين." data-en="A handover call where we help you create a GitHub account and set up hosting and a custom domain.">مكالمة تسليم نساعدك فيها بإنشاء حساب GitHub، وشراء الاستضافة والدومين.</p>
           </div>
         </div>
       </div>
@@ -206,48 +199,41 @@
     <section id="pricing" class="section">
       <div class="container">
         <h2 class="reveal" data-ar="الأسعار" data-en="Pricing">الأسعار</h2>
-        <div class="grid grid-3">
-          <div class="card pricing-card reveal">
-            <h3 data-ar="[الباقة 1]" data-en="[Tier 1]">[الباقة 1]</h3>
-            <p class="price">[XXXX EGP]</p>
-            <ul>
-              <li data-ar="[ميزة]" data-en="[Feature]">[ميزة]</li>
-              <li data-ar="[ميزة]" data-en="[Feature]">[ميزة]</li>
-              <li data-ar="[ميزة]" data-en="[Feature]">[ميزة]</li>
-            </ul>
-            <a href="#contact" class="btn btn-secondary" data-ar="اختر الباقة" data-en="Choose Plan">اختر الباقة</a>
-          </div>
+        <div class="grid pricing-grid-single">
           <div class="card pricing-card featured reveal">
-            <h3 data-ar="[الباقة 2]" data-en="[Tier 2]">[الباقة 2]</h3>
-            <p class="price">[XXXX EGP]</p>
+            <span class="badge" data-ar="لفترة محدودة" data-en="Limited Time">لفترة محدودة</span>
+            <h3 data-ar="باقة الموقع الإلكتروني" data-en="Website Package">باقة الموقع الإلكتروني</h3>
+            <p class="price" data-ar="مجانًا" data-en="Free">مجانًا</p>
             <ul>
-              <li data-ar="[ميزة]" data-en="[Feature]">[ميزة]</li>
-              <li data-ar="[ميزة]" data-en="[Feature]">[ميزة]</li>
-              <li data-ar="[ميزة]" data-en="[Feature]">[ميزة]</li>
+              <li data-ar="موقع إلكتروني احترافي مخصص بالكامل لشركتك" data-en="A professional website fully customized for your business">موقع إلكتروني احترافي مخصص بالكامل لشركتك</li>
+              <li data-ar="عرض تجريبي (ديمو) قبل ما تلتزم" data-en="A live demo before you commit">عرض تجريبي (ديمو) قبل ما تلتزم</li>
+              <li data-ar="تعديلات ومراجعات بعد التسليم" data-en="Revisions after delivery">تعديلات ومراجعات بعد التسليم</li>
+              <li data-ar="مساعدة في إعداد الاستضافة والدومين" data-en="Help setting up hosting & a domain">مساعدة في إعداد الاستضافة والدومين</li>
             </ul>
-            <a href="#contact" class="btn btn-primary" data-ar="اختر الباقة" data-en="Choose Plan">اختر الباقة</a>
-          </div>
-          <div class="card pricing-card reveal">
-            <h3 data-ar="[الباقة 3]" data-en="[Tier 3]">[الباقة 3]</h3>
-            <p class="price">[XXXX EGP]</p>
-            <ul>
-              <li data-ar="[ميزة]" data-en="[Feature]">[ميزة]</li>
-              <li data-ar="[ميزة]" data-en="[Feature]">[ميزة]</li>
-              <li data-ar="[ميزة]" data-en="[Feature]">[ميزة]</li>
-            </ul>
-            <a href="#contact" class="btn btn-secondary" data-ar="اختر الباقة" data-en="Choose Plan">اختر الباقة</a>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="section section-alt contact-section">
-      <div class="container">
-        <h2 class="reveal" data-ar="جاهز تبدأ؟" data-en="Ready to Start?">جاهز تبدأ؟</h2>
-        <div class="contact-actions reveal">
-          <a href="https://wa.me/20XXXXXXXXXX" class="btn btn-whatsapp" target="_blank" rel="noopener" data-ar="راسلنا على واتساب" data-en="Message us on WhatsApp">راسلنا على واتساب</a>
+        <!--
+        <div class="card pricing-card reveal">
+          <h3 data-ar="[الباقة 1]" data-en="[Tier 1]">[الباقة 1]</h3>
+          <p class="price">[XXXX EGP]</p>
+          <ul>
+            <li data-ar="[ميزة]" data-en="[Feature]">[ميزة]</li>
+            <li data-ar="[ميزة]" data-en="[Feature]">[ميزة]</li>
+            <li data-ar="[ميزة]" data-en="[Feature]">[ميزة]</li>
+          </ul>
+          <a href="#contact" class="btn btn-secondary" data-ar="اختر" data-en="Choose">اختر</a>
         </div>
+        <div class="card pricing-card reveal">
+          <h3 data-ar="[الباقة 3]" data-en="[Tier 3]">[الباقة 3]</h3>
+          <p class="price">[XXXX EGP]</p>
+          <ul>
+            <li data-ar="[ميزة]" data-en="[Feature]">[ميزة]</li>
+            <li data-ar="[ميزة]" data-en="[Feature]">[ميزة]</li>
+            <li data-ar="[ميزة]" data-en="[Feature]">[ميزة]</li>
+          </ul>
+          <a href="#contact" class="btn btn-secondary" data-ar="اختر" data-en="Choose">اختر</a>
+        </div>
+        -->
       </div>
     </section>
 
@@ -259,17 +245,20 @@
       <img src="assets/img/jisr_logo_white.png" alt="Jisr" class="footer-logo-img">
       <div class="footer-links">
         <a href="mailto:jisrsites@gmail.com" class="footer-email">jisrsites@gmail.com</a>
+        <a href="tel:+201028711550" class="footer-phone" dir="ltr">+20 102 871 1550</a>
       </div>
       <div class="footer-socials">
-        <a href="https://wa.me/20XXXXXXXXXX" target="_blank" rel="noopener" class="social-icon whatsapp" aria-label="WhatsApp">
+        <a href="https://wa.me/201028711550" target="_blank" rel="noopener" class="social-icon whatsapp" aria-label="WhatsApp">
           <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9.373 3 4 8.373 4 15c0 2.386.694 4.611 1.885 6.49L4 29l7.703-1.86A11.94 11.94 0 0 0 16 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 21.818a9.77 9.77 0 0 1-4.98-1.36l-.357-.213-3.65.882.906-3.61-.232-.37A9.8 9.8 0 0 1 6.18 15C6.18 9.582 10.582 5.18 16 5.18S25.82 9.582 25.82 15 21.418 24.818 16 24.818zm5.4-7.34c-.297-.148-1.755-.866-2.027-.966-.272-.099-.47-.148-.668.148-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.148-1.253-.462-2.386-1.472-.882-.786-1.478-1.756-1.651-2.053-.173-.297-.018-.457.13-.605.134-.133.297-.347.446-.52.148-.173.198-.297.297-.495.099-.198.05-.372-.025-.52-.074-.148-.668-1.61-.916-2.205-.241-.579-.486-.5-.668-.51-.173-.008-.372-.01-.57-.01a1.1 1.1 0 0 0-.792.372c-.272.297-1.04 1.016-1.04 2.478s1.065 2.876 1.213 3.074c.148.198 2.096 3.2 5.08 4.488.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.755-.717 2.002-1.41.247-.693.247-1.287.173-1.41-.074-.123-.272-.198-.57-.347z"/></svg>
         </a>
+        <!--
         <a href="#" target="_blank" rel="noopener" class="social-icon instagram" aria-label="Instagram">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.584.012 4.85.07 1.17.054 1.805.249 2.227.415.56.217.96.477 1.38.896.42.42.68.82.896 1.38.166.422.361 1.057.415 2.227.058 1.266.07 1.65.07 4.85s-.012 3.584-.07 4.85c-.054 1.17-.249 1.805-.415 2.227a3.7 3.7 0 0 1-.896 1.38 3.7 3.7 0 0 1-1.38.896c-.422.166-1.057.361-2.227.415-1.266.058-1.65.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.054-1.805-.249-2.227-.415a3.7 3.7 0 0 1-1.38-.896 3.7 3.7 0 0 1-.896-1.38c-.166-.422-.361-1.057-.415-2.227C2.212 15.584 2.2 15.2 2.2 12s.012-3.584.07-4.85c.054-1.17.249-1.805.415-2.227.217-.56.477-.96.896-1.38.42-.42.82-.68 1.38-.896.422-.166 1.057-.361 2.227-.415C8.416 2.212 8.8 2.2 12 2.2zm0 1.8c-3.146 0-3.52.012-4.764.069-.995.045-1.535.21-1.895.35-.476.185-.816.406-1.174.764-.358.358-.579.698-.764 1.174-.14.36-.305.9-.35 1.895C3.012 8.48 3 8.854 3 12s.012 3.52.069 4.764c.045.995.21 1.535.35 1.895.185.476.406.816.764 1.174.358.358.698.579 1.174.764.36.14.9.305 1.895.35 1.244.057 1.618.069 4.764.069s3.52-.012 4.764-.069c.995-.045 1.535-.21 1.895-.35.476-.185.816-.406 1.174-.764.358-.358.579-.698.764-1.174.14-.36.305-.9.35-1.895.057-1.244.069-1.618.069-4.764s-.012-3.52-.069-4.764c-.045-.995-.21-1.535-.35-1.895a3.16 3.16 0 0 0-.764-1.174 3.16 3.16 0 0 0-1.174-.764c-.36-.14-.9-.305-1.895-.35C15.52 4.012 15.146 4 12 4zm0 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 1.8a2.7 2.7 0 1 0 2.7 2.7 2.7 2.7 0 0 0-2.7-2.7zm4.7-2.05a1.05 1.05 0 1 1-1.05-1.05 1.05 1.05 0 0 1 1.05 1.05z"/></svg>
         </a>
         <a href="#" target="_blank" rel="noopener" class="social-icon facebook" aria-label="Facebook">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/></svg>
         </a>
+        -->
       </div>
       <p class="footer-copy" data-ar="© 2026 جسر. جميع الحقوق محفوظة." data-en="© 2026 Jisr. All rights reserved.">© 2026 جسر. جميع الحقوق محفوظة.</p>
     </div>
